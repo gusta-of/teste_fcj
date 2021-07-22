@@ -60,7 +60,7 @@ class RegistroController {
     async post_auth(req, res) {
         try {
             const { email, senha } = req.body
-            
+
             if (!dados.consulta_email(email)) {
                 return res.status(403).json({ error: 'Email não encontrado na base de dados!' });
             }

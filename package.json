@@ -1,7 +1,6 @@
 {
   "name": "teste_fcj_backend",
   "version": "1.0.0",
-  "description": "Desenvolvimento de uma aplicação de autenticação com integração de serviço smt para recuperação de senha",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./src/server.js",
