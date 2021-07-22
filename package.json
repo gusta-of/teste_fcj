@@ -1,0 +1,31 @@
+{
+  "name": "teste_fcj_backend",
+  "version": "1.0.0",
+  "description": "Desenvolvimento de uma aplicação de autenticação com integração de serviço smt para recuperação de senha",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "start": "sucrase-node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusta-of/teste_fcj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gusta-of/teste_fcj/issues"
+  },
+  "homepage": "https://github.com/gusta-of/teste_fcj#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^17.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "sucrase": "^3.20.0"
+  }
+}
